@@ -1,0 +1,124 @@
+header {
+	height: 55px;
+	margin: 0;
+	background-color: #000;
+	border-bottom: 5px solid #fdf731;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 20px;
+}
+h1 {
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	font-size: 30px;
+	color: #fdf731;
+}
+nav a {
+	font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+	margin: 10px; 
+}
+nav a:nth-child(-n+2) {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+}
+nav a:nth-child(n+3) {
+	font-weight: 400;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.tagline {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #c6c6c6;
+	height: 50px;
+}
+.tagline h2 {
+	margin: 0;
+}
+strike {
+	color: #999;
+}
+span {
+	border-bottom: 3px solid #fdf731;	
+}
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-top: 0;
+	background-image: url(../images/coworking.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.pop-up {
+	margin: 30px;
+	padding: 30px;
+	width: 30%;
+	background-color: rgba(255, 255, 255, .85);
+}
+.pop-up h2 {
+	font-size: 30px;
+	font-family: 'Source Sans Pro', sans-serif; 
+	font-weight: 700;
+	margin-top: 0;
+}
+p {
+	font-size: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+}
+.pop-up button {
+	border: 2px outset #fdf731;
+	background-color: #fdf731;
+	margin-top: 30px;
+	height: 50px;
+	width: 100%;
+}
+.pop-up button:active {
+	border: 2px inset #fdf731;
+
+}
+button {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	border-radius: 5px;
+	width: 100%;
+	height: 50px;
+}
+.profile, .developer, .designer {
+	line-height: 23px;
+	padding: 30px;
+	font-weight: 700;
+	font-size: 25px;
+	font-family: 'Merriweather', serif;
+}
+.profile {
+	border-right: 2px solid #ddd;
+}
+.developer {
+	border-right: 2px solid #ddd;
+}
+.boxes {
+	margin: 
+	background-color: #fff; 
+	display: flex;
+	justify-content: space-around;
+}
+footer {
+	color: #fff;
+	background-color: #000;
+	display: flex;
+	align-items: center;
+	height: 50px;
+}
+footer h4 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	margin: 0 auto;
+}
